@@ -30,3 +30,37 @@
   }
 }
 
+
+
+.card-add-tag-link {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 4px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+
+  &:hover {
+    color: white;
+    opacity: 1;
+  }
+}
+
+.card-tags {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 80%;
+  span {
+    background: $blue;
+    font-size: .7em;
+    padding: 2px 4px;
+    margin-right: 4px;
+    border-radius: 3px;
+  }
+  a {
+    color: white;
+  }
+}
